@@ -698,7 +698,7 @@ img {
 .services-item p {
   margin-bottom: 40px;
 }
-.services-item figure {
+.services-item figure img {
   background: var(--wpdevs-black-blue);
   padding: 15px;
 }
