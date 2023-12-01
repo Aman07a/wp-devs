@@ -17,6 +17,10 @@
                             <?php the_content(); ?>
                         </article>
                     <?php
+
+                        if (comments_open() || get_comments_number()) {
+                            comments_template();
+                        }
                     endwhile;
                     ?>
                 </div>
